@@ -1,0 +1,54 @@
+.container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#loginbtn {
+  width: 100%;
+  background-color: rgb(2, 141, 14);
+  border: none;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.loginform {
+  border: 1px solid black;
+  padding: 20px;
+  float: right;
+  width: 80%;
+  height: fit-content;
+  margin-left: 0;
+  margin-right: 150px;
+  text-align: center;
+}
+.imglogin {
+  display: inline;
+}
+#btnf {
+  background-color: blue;
+  color: white;
+  width: 42%;
+  text-align: center;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  margin: 10px;
+}
+#btng {
+  background-color: red;
+  color: white;
+  width: 42%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin: 10px;
+}
+
+#inputtxt {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}

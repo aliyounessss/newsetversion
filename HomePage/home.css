@@ -1,0 +1,101 @@
+#search {
+  color: black;
+  width: 50%;
+  height: 40px;
+  padding: 23px;
+  margin-top: 50px;
+}
+
+.box {
+  text-align: center;
+  align-content: center;
+  position: flex;
+  vertical-align: middle;
+  padding-left: 100px;
+  padding: 70px;
+  height: 12cm;
+  margin-top: 5%;
+  background-image: url("../images/search.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.sidebotton {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 50px;
+  position: fixed;
+  overflow-x: hidden;
+  text-orientation: upright;
+  font-weight: bolder;
+  font-size: larger;
+  color: beige;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#Emr {
+  color: white;
+  position: static;
+  background-color: red;
+  border: none;
+  font-size: 20px;
+  margin-top: 50px;
+}
+#sidebtntext {
+  float: right;
+  margin-left: 1px;
+  position: relative;
+  z-index: 1;
+  margin-top: 50px;
+  color: white;
+  background-color: red;
+  display: none;
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+  height: 271px;
+  animation: showMe 2.5s forwards;
+}
+@keyframes showMe {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* #btnreg {
+  display: inline-block;
+  background-color: aqua;
+  border-color: lightgreen;
+  color: black;
+}
+#btnreg:hover {
+  background-color: rgb(60, 223, 73) !important;
+  color: white;
+} */
+
+#close {
+  display: inline-flex;
+  float: right;
+  background-color: white !important;
+}
+#iconsearch {
+  width: fit-content;
+  height: fit-content;
+  font-size: 25px;
+  align-content: center;
+  vertical-align: middle;
+}
+/* .footer {
+  bottom: 0;
+} */
+.tblfooter {
+  width: 100%;
+  text-align: center;
+  background-color: #02386e;
+  font-size: small;
+}
