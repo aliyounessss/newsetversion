@@ -92,7 +92,7 @@ alert('wrong input ');
               /></a>
               <p>
                 Don't Have an Account?
-                <a href="../Sign Up/signup.html">Register.</a>
+                <a href="../Sign Up/signup.php">Register.</a>
               </p>
             </form>
           </div>
@@ -103,13 +103,13 @@ alert('wrong input ');
   <div class="footer"></div>
   <script type="text/javascript">
     $(function () {
-      $(".nav").load("../NavBar/navbar.html");
+      $(".nav").load("../NavBar/navbar.php");
     });
   </script>
 
   <script type="text/javascript">
     $(function () {
-      $(".footer").load("../Footer/footer.html");
+      $(".footer").load("../Footer/footer.php");
     });
   </script>
   <script src="login.js"></script>

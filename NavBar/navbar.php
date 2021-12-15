@@ -105,8 +105,6 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="../Hospitals/hospital.php">Hospital List</a></li>
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><hr class="dropdown-divider" /></li>
                 </ul>
               </li>
 

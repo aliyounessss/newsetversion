@@ -149,14 +149,13 @@ if(isset($_SESSION['saved'])) if($_SESSION['saved']==true) {
   <?php } session_destroy();?>
           <div> 
           <hr />
-         
-          <hr />
           <a href="https://www.facebook.com">
             <input type="button" name="" id="btnf" value="f Login" />
           </a>
           <a href="https://www.gmail.com">
             <input type="button" id="btng" value="G Login"
           /></a>
+</div>
         </form>
       </div>
     </div>
