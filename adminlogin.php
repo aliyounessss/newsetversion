@@ -52,7 +52,7 @@ header("Location: doctor/doctordashboard.php");
                     <div class="avatar"></div>
                     <div class="form-box">
                         <form class="form" role="form" method="POST" accept-charset="UTF-8">
-                            <input name="doctorId" type="text" placeholder="Admin ID" required>
+                            <input name="doctorId" type="text" placeholder="Doctor ID" required>
                             <input name="password" type="password" placeholder="Password" required>
                             <button class="btn btn-info btn-block login" type="submit" name="login">Login</button>
                         </form>
@@ -62,5 +62,9 @@ header("Location: doctor/doctordashboard.php");
         </div>
 
         <script src="asset/js/jquery.js"></script>
+
+        <!-- js start -->
+        
+        <!-- js end -->
     </body>
 </html>
